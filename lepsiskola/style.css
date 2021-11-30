@@ -27,6 +27,7 @@ html {
     font-family: var(--ff-title);
     color: black;
     background-color: var(--dark-clr);
+    scroll-behavior: smooth;
 
 }
 
@@ -49,7 +50,6 @@ section {
     padding: 3em 1em;
 
 }
-
 
 /*
 =============== 
@@ -118,6 +118,14 @@ a {
 
 .selected {
     color:#fffe00
+}
+
+h2 {
+    font-size: 4rem;
+}h3 {
+    font-size: 2rem;
+}h4 {
+    font-size: 1rem;
 }
 
 /*
@@ -262,7 +270,7 @@ nav a:focus {
     flex-direction: column;
     color: var(--light-clr);
     font-weight: 700;
-    padding: 5em;
+    padding: 0em;
 
 }
 
@@ -511,4 +519,5 @@ footer a {
     background: #555;
 
 }
+
 
