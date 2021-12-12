@@ -6,7 +6,9 @@
 
     --dark-clr: #2d2d2d;
     --light-clr: #d3d3d3;
-    --clr-primary: #dd9900;
+    --clr-primary: #0082ff;
+    --clr-foho: #00dcef;
+    --clr-sel: #00b6ff;
 
     --ff-title: 'Open Sans', sans-serif;
     --ff-text: 'Montserrat', sans-serif;
@@ -117,7 +119,7 @@ a {
 }
 
 .selected {
-    color:#fffe00
+    color: var(--clr-sel);
 }
 
 h2 {
@@ -167,7 +169,7 @@ nav a {
 nav a:hover,
 nav a:focus {
 
-    color: #fffe00;
+    color: var(--clr-foho);
     text-decoration: underline;
 
 }
