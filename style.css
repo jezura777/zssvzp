@@ -224,7 +224,7 @@ nav a:focus {
 
     font-family: var(--ff-title);
     color: var(--light-clr);
-    padding: 10px;
+    padding: 10pxů
 
 }
 
@@ -234,6 +234,13 @@ nav a:focus {
 
     display: flex;
     justify-content: space-between;
+
+}
+
+.image {
+
+    width: 5em;
+    height: 5em;
 
 }
 
