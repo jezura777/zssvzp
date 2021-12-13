@@ -330,7 +330,7 @@ nav a:focus {
 footer {
 
     background: #333;
-    padding: 3em 1em;
+    padding: 2em 1em;
     color: white;
     display: flex;
     flex-direction: column;
