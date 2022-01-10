@@ -280,7 +280,7 @@ nav a:focus {
 .intro {
 
     background-color: var(--middle-dark-clr);
-    background-image: url(../assets/images/zkp.jpg);
+    background-image: url(assets/images/motive-base.jpg);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;
